@@ -22,6 +22,7 @@
 		16029B972B779B8200EF996A /* LivePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16029B962B779B8200EF996A /* LivePage.swift */; };
 		16029B992B779BB500EF996A /* ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16029B982B779BB500EF996A /* ContactPage.swift */; };
 		16E0828E2B84D90F001EC166 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0828D2B84D90F001EC166 /* StringExtension.swift */; };
+		16E082902B84F802001EC166 /* TCPsender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0828F2B84F802001EC166 /* TCPsender.swift */; };
 		16FB95F42B78CD5E001066EA /* UDPsender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB95F32B78CD5E001066EA /* UDPsender.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		16029B962B779B8200EF996A /* LivePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePage.swift; sourceTree = "<group>"; };
 		16029B982B779BB500EF996A /* ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPage.swift; sourceTree = "<group>"; };
 		16E0828D2B84D90F001EC166 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		16E0828F2B84F802001EC166 /* TCPsender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPsender.swift; sourceTree = "<group>"; };
 		16FB95F32B78CD5E001066EA /* UDPsender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPsender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 				1600F5292B83883300F3D9FF /* PowerupPage.swift */,
 				1600F52B2B83885F00F3D9FF /* ShutdownPage.swift */,
 				16E0828D2B84D90F001EC166 /* StringExtension.swift */,
+				16E0828F2B84F802001EC166 /* TCPsender.swift */,
 			);
 			path = ANC3;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				16029B912B77972300EF996A /* HomePage.swift in Sources */,
 				1600F52A2B83883300F3D9FF /* PowerupPage.swift in Sources */,
 				16029B972B779B8200EF996A /* LivePage.swift in Sources */,
+				16E082902B84F802001EC166 /* TCPsender.swift in Sources */,
 				16029B952B7797C800EF996A /* SettingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

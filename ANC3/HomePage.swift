@@ -94,9 +94,18 @@ struct HomePage: View {
                 Button(action:{
                     let myUDPsender = UDPsender()
                     myUDPsender.sendUDPHEXStr(remoteHost: "172.18.0.33", remotePort: 50505, action: "31 37 32 2E 31 38 2E 30 2E 33 33 4B 30 31 30 31 45 4E 44")
-                }){Text("TestUDP")}
+                }){Text("UDP")}
                     .foregroundColor(.white).background(.blue).cornerRadius(10)
                     .padding().frame(width:100).font(.system(size:25))
+                
+                Button(action:{
+                    let myTCPsender = TCPsender()
+                    myTCPsender.sendTCPHEXStr(remoteHost: "172.18.0.33", remotePort: 50505, action: "31 37 32 2E 31 38 2E 30 2E 33 33 4B 30 31 30 31 45 4E 44")
+                }){Text("TCP")}
+                    .foregroundColor(.white).background(.blue).cornerRadius(10)
+                    .padding().frame(width:100).font(.system(size:25))
+                
+                
             }
         }
        
