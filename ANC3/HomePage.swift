@@ -88,8 +88,9 @@ struct HomePage: View {
 
             }
             Spacer()
+            /**
+             Text("Test").font(.system(size:30))
             
-            Text("Test").font(.system(size:30))
             HStack{
                 Button(action:{
                     let myUDPsender = UDPsender()
@@ -100,13 +101,14 @@ struct HomePage: View {
                 
                 Button(action:{
                     let myTCPsender = TCPsender()
-                    myTCPsender.sendTCPHEXStr(remoteHost: "172.18.0.33", remotePort: 50505, action: "31 37 32 2E 31 38 2E 30 2E 33 33 4B 30 31 30 31 45 4E 44")
+                    myTCPsender.sendTCPHEXStr(remoteHost: "172.18.0.71", remotePort: 40004, action: "55 01 A4 00 00 A5")
                 }){Text("TCP")}
                     .foregroundColor(.white).background(.blue).cornerRadius(10)
                     .padding().frame(width:100).font(.system(size:25))
                 
                 
-            }
+            }**/
+             
         }
        
         

@@ -11,7 +11,9 @@ struct PowerupPage: View {
     var body: some View {
         
         
-        Button(action:{}){
+        Button(action:{
+            powerUpAllDevices()
+        }){
             VStack{
                 Text("一键开启所有设备").font(.system(size:40))
                 Image(systemName:"bolt.circle").font(.system(size:300)).frame(width:300,height:300)

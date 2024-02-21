@@ -21,6 +21,8 @@
 		16029B952B7797C800EF996A /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16029B942B7797C800EF996A /* SettingPage.swift */; };
 		16029B972B779B8200EF996A /* LivePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16029B962B779B8200EF996A /* LivePage.swift */; };
 		16029B992B779BB500EF996A /* ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16029B982B779BB500EF996A /* ContactPage.swift */; };
+		16BBC08A2B862468003B4DF8 /* powerUpAllDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BBC0892B862468003B4DF8 /* powerUpAllDevices.swift */; };
+		16BBC08C2B8624BA003B4DF8 /* shutDownAllDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BBC08B2B8624BA003B4DF8 /* shutDownAllDevices.swift */; };
 		16E0828E2B84D90F001EC166 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0828D2B84D90F001EC166 /* StringExtension.swift */; };
 		16E082902B84F802001EC166 /* TCPsender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0828F2B84F802001EC166 /* TCPsender.swift */; };
 		16FB95F42B78CD5E001066EA /* UDPsender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB95F32B78CD5E001066EA /* UDPsender.swift */; };
@@ -61,6 +63,8 @@
 		16029B942B7797C800EF996A /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
 		16029B962B779B8200EF996A /* LivePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePage.swift; sourceTree = "<group>"; };
 		16029B982B779BB500EF996A /* ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPage.swift; sourceTree = "<group>"; };
+		16BBC0892B862468003B4DF8 /* powerUpAllDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powerUpAllDevices.swift; sourceTree = "<group>"; };
+		16BBC08B2B8624BA003B4DF8 /* shutDownAllDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shutDownAllDevices.swift; sourceTree = "<group>"; };
 		16E0828D2B84D90F001EC166 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		16E0828F2B84F802001EC166 /* TCPsender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPsender.swift; sourceTree = "<group>"; };
 		16FB95F32B78CD5E001066EA /* UDPsender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPsender.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				16029B942B7797C800EF996A /* SettingPage.swift */,
 				16FB95F32B78CD5E001066EA /* UDPsender.swift */,
 				1600F5292B83883300F3D9FF /* PowerupPage.swift */,
+				16BBC08B2B8624BA003B4DF8 /* shutDownAllDevices.swift */,
+				16BBC0892B862468003B4DF8 /* powerUpAllDevices.swift */,
 				1600F52B2B83885F00F3D9FF /* ShutdownPage.swift */,
 				16E0828D2B84D90F001EC166 /* StringExtension.swift */,
 				16E0828F2B84F802001EC166 /* TCPsender.swift */,
@@ -292,8 +298,10 @@
 				16029B672B7792A700EF996A /* ContentView.swift in Sources */,
 				16029B992B779BB500EF996A /* ContactPage.swift in Sources */,
 				16FB95F42B78CD5E001066EA /* UDPsender.swift in Sources */,
+				16BBC08C2B8624BA003B4DF8 /* shutDownAllDevices.swift in Sources */,
 				1600F52C2B83885F00F3D9FF /* ShutdownPage.swift in Sources */,
 				16029B652B7792A700EF996A /* ANC3App.swift in Sources */,
+				16BBC08A2B862468003B4DF8 /* powerUpAllDevices.swift in Sources */,
 				16029B912B77972300EF996A /* HomePage.swift in Sources */,
 				1600F52A2B83883300F3D9FF /* PowerupPage.swift in Sources */,
 				16029B972B779B8200EF996A /* LivePage.swift in Sources */,
